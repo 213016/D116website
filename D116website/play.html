@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>嘉義食光</title>
+<style type="text/css">
+#container {
+	width: 1280px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	height: 150px;
+	width: 1280px;
+}
+#article {
+	float: left;
+	height: 600px;
+	width: 1000px;
+	overflow: auto;
+}
+#item {
+	float: right;
+	height: 600px;
+	width: 280px;
+}
+#footer {
+	float: left;
+	height: 50px;
+	width: 1280px;
+}
+.titlestyle {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	color: #666;
+}
+.titlestyle-2 {
+	font-family: "微軟正黑體";
+	font-size: 24px;
+	color: #333;
+	text-align: center;
+}
+.titlestyle3 {
+	font-family: "微軟正黑體";
+	font-size: 24px;
+	color: #000;
+	background-color: #FFC;
+	text-align: center;
+}
+.textstyle {
+	font-family: "微軟正黑體";
+	font-size: 18px;
+	color: #666;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="container">
+  <div id="header"><img src="images/嘉享樂趣.jpg" width="1280" height="150"></div>
+  <div id="article"></div>
+  <div id="item">
+    <ul id="MenuBar1" class="MenuBarVertical">
+      <li><a href="food.html">嘉義食光</a></li>
+      <li><a href="home.html">嘉義好眠</a></li>
+      <li><a href="play.html">嘉享樂趣</a></li>
+      <li><a href="aboutme.html">關於我</a>      </li>
+      <li><a href="contact.html">與我聯絡</a></li>
+      <li><a href="index.html">回首頁</a></li>
+    </ul>
+  </div>
+  <div id="footer"><img src="images/頁尾.jpg" width="1280" height="50"></div>
+</div>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
