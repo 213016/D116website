@@ -61,9 +61,14 @@
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryEffects.js" type="text/javascript"></script>
 <script type="text/javascript">
 function MM_openBrWindow(theURL,winName,features) { //v2.0
   window.open(theURL,winName,features);
+}
+function MM_effectAppearFade(targetElement, duration, from, to, toggle)
+{
+	Spry.Effect.DoFade(targetElement, {duration: duration, from: from, to: to, toggle: toggle});
 }
 </script>
 </head>
@@ -84,8 +89,8 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
         <p>資料來源：<a href="https://www.hinokivillage.com.tw/">檜意森活村</a>官網</p></td>
       </tr>
       <tr>
-        <td width="489" align="center"><img src="images/play1-1-s.jpg" name="p01" width="300" height="170" id="p01" onClick="MM_openBrWindow('images/play1-1-b.jpg','','width=800,height=453')"></td>
-        <td width="475" align="center"><img src="images/play1-2-s.png" name="p02" width="300" height="171" id="p02" onClick="MM_openBrWindow('images/play1-2-b.png','','width=800,height=455')"></td>
+        <td width="489" align="center"><img src="images/play1-1-s.jpg" name="p01" width="300" height="170" id="p01" onClick="MM_openBrWindow('images/play1-1-b.jpg','','width=800,height=453')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
+        <td width="475" align="center"><img src="images/play1-2-s.png" name="p02" width="300" height="171" id="p02" onClick="MM_openBrWindow('images/play1-2-b.png','','width=800,height=455')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
       </tr>
       <tr>
         <td colspan="2" class="titlestyle3"><a id="a1"></a>新港香藝文化園區</td>
@@ -95,8 +100,8 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
         <p class="titlestyle">資料來源：<a href="https://www.incense-art.com.tw/about/index.aspx">新港香藝文化</a>官網 <a href="#top">T</a><a href="#top">op</a></p></td>
       </tr>
       <tr>
-        <td align="center"><img src="images/play2-1-s.jpg" name="p03" width="300" height="200" id="p03" onClick="MM_openBrWindow('images/play2-1-b.jpg','','width=800,height=533')"></td>
-        <td align="center"><img src="images/play2-2-s.jpg" name="p04" width="300" height="206" id="p04" onClick="MM_openBrWindow('images/play2-2-b.jpg','','width=800,height=600')"></td>
+        <td align="center"><img src="images/play2-1-s.jpg" name="p03" width="300" height="200" id="p03" onClick="MM_openBrWindow('images/play2-1-b.jpg','','width=800,height=533')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
+        <td align="center"><img src="images/play2-2-s.jpg" name="p04" width="300" height="206" id="p04" onClick="MM_openBrWindow('images/play2-2-b.jpg','','width=800,height=600')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
       </tr>
       <tr>
         <td colspan="2" class="titlestyle3"><a id="a2"></a>果然茶香觀光工廠</td>
@@ -106,8 +111,8 @@ function MM_openBrWindow(theURL,winName,features) { //v2.0
         <p>資料來源：<a href="https://go1356.com.tw/">果然茶香</a>官網 <a href="#top">T</a><a href="#top">op</a></p></td>
       </tr>
       <tr>
-        <td align="center"><img src="images/play3-1-s.jpg" name="p05" width="300" height="200" id="p05" onClick="MM_openBrWindow('images/play3-1-b.jpg','','width=800,height=534')"></td>
-        <td align="center"><img src="images/play3-2-s.jpg" name="p06" width="300" height="200" id="p06" onClick="MM_openBrWindow('images/play3-2-b.jpg','','width=800,height=534')"></td>
+        <td align="center"><img src="images/play3-1-s.jpg" name="p05" width="300" height="200" id="p05" onClick="MM_openBrWindow('images/play3-1-b.jpg','','width=800,height=534')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
+        <td align="center"><img src="images/play3-2-s.jpg" name="p06" width="300" height="200" id="p06" onClick="MM_openBrWindow('images/play3-2-b.jpg','','width=800,height=534')" onMouseOver="MM_effectAppearFade(this, 1500, 50, 100, false)"></td>
       </tr>
     </table>
   </div>
