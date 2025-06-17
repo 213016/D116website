@@ -54,13 +54,51 @@
 }
 </style>
 <link href="SpryAssets/SpryMenuBarVertical.css" rel="stylesheet" type="text/css">
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
 <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
 </head>
 
 <body>
 <div id="container">
   <div id="header"><img src="images/關於我.jpg" width="1280" height="150"></div>
-  <div id="article"></div>
+  <div id="article">
+    <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">基本資料</div>
+        <div class="AccordionPanelContent">
+          <table width="997" height="272" border="0">
+            <tr>
+              <td colspan="2"><center><img src="images/ChatGPT Image.png" width="200" height="300"></center></td>
+            </tr>
+            <tr class="titlestyle-2">
+              <td width="492">個人資料</td>
+              <td width="495">學經歷</td>
+            </tr>
+            <tr>
+              <td height="206"><p>姓名：何承恩</p>
+              <p>性別：男</p>
+              <p>E-mail：11213016@gm.hnvs.cy.edu.tw              </p>
+              <p>興趣：聽音樂</p></td>
+              <td><p>嘉北國小</p>
+              <p>北興國中</p>
+              <p>華南高商</p>
+              <p>幹部：高二 班長</p>
+              <p>社團：野外健行社</p></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">設計理念</div>
+        <div class="AccordionPanelContent">「嘉遊記」網站以視覺導覽為設計理念，透過溫暖且清晰的圖片、直觀且方便操作的介面，完整地向使用者展現嘉義在地文化、美食與景點魅力。我們希望每位造訪者都能身歷其境地探索嘉義之美，發掘其中蘊藏的人情溫暖與故事魅力，增進對嘉義歷史、文化與生活的認識與喜愛。此外，我們也致力透過此網站提供最完整且真實的資訊，幫助遊客安排行程、創造難忘且充實的旅行體驗，讓嘉義獨有的人文風采傳達到更多人的心中。</div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">學習反思</div>
+        <div class="AccordionPanelContent">在製作「嘉遊記」網站後，我學到了許多網頁設計的技能，包括圖片處理、超鏈結設定與介面配置，更深刻地了解嘉義在地文化與歷史故事。这次經驗讓我體會到設計不只是美觀，更要傳達出其中的人情味與特色，我也學會了用視覺說故事，增強溝通表達能力，為未來增積更多經驗與能力。</div>
+      </div>
+    </div>
+  </div>
   <div id="item">
     <ul id="MenuBar1" class="MenuBarVertical">
       <li><a href="food.html">嘉義食光</a></li>
@@ -75,6 +113,7 @@
 </div>
 <script type="text/javascript">
 var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
 </script>
 </body>
 </html>
